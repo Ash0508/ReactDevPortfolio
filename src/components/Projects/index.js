@@ -23,40 +23,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         <Desc>
           I have worked on a wide range of projects, from web apps & IOT. Here are some of my projects.
         </Desc>
-        <ToggleButtonGroup>
-          <ToggleButton
-            active={toggle === 'all'}
-            value="all"
-            onClick={() => setToggle('all')}
-          >
-            All
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === 'web app'}
-            value="web app"
-            onClick={() => setToggle('web app')}
-          >
-            WEB APP'S
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === 'IOT'}
-            value="IOT"
-            onClick={() => setToggle('IOT')}
-          >
-            IOT PROJECTS
-          </ToggleButton>
-          <Divider />
-          {/* Uncomment if needed */}
-          {/* <ToggleButton
-            active={toggle === 'machine learning'}
-            value="machine learning"
-            onClick={() => setToggle('machine learning')}
-          >
-            MACHINE LEARNING
-          </ToggleButton> */}
-        </ToggleButtonGroup>
+        
         <CardContainer>
           {toggle === 'all' ? (
             projects.map((project) => (
