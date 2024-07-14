@@ -140,7 +140,7 @@ const ProjectCards = ({ project }) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
-            <Button href={project.githubLink} target="_blank" rel="noopener noreferrer">
+            <Button href={project.github} target="_blank" rel="noopener noreferrer">
                 <FaGithub size={20} style={{ marginRight: '8px' }} />
                 View on GitHub
             </Button>
