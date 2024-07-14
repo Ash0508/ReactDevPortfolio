@@ -118,17 +118,17 @@ function Footer() {
           <SocialMediaIcon href={Bio.xicon} target="_blank"><FaTwitter /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="_blank"><FaLinkedin /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="_blank"><FaInstagram /></SocialMediaIcon>
-          <SocialMediaIcon href="https://github.com/yourusername" target="_blank"><FaGithub /></SocialMediaIcon>
-          <SocialMediaIcon href="https://leetcode.com/yourusername" target="_blank">
+          <SocialMediaIcon href="https://github.com/Ash0508" target="_blank"><FaGithub /></SocialMediaIcon>
+          <SocialMediaIcon href="https://leetcode.com/u/Ankush0508/" target="_blank">
             <CustomIcon src={logoUrls.leetcode} alt="LeetCode" />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.geeksforgeeks.org/yourusername" target="_blank">
+          <SocialMediaIcon href="https://www.geeksforgeeks.org/user/singhankush0508luvkush/" target="_blank">
             <CustomIcon src={logoUrls.gfg} alt="GeeksforGeeks" />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.codingninjas.com/yourusername" target="_blank">
+          <SocialMediaIcon href="https://www.naukri.com/code360/profile/luvkush0805" target="_blank">
             <CustomIcon src={logoUrls.codingninjas} alt="CodingNinjas" />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.codechef.com/users/yourusername" target="_blank">
+          <SocialMediaIcon href="https://www.codechef.com/users/ankush_0508" target="_blank">
             <CustomIcon src={logoUrls.codechef} alt="CodeChef" />
           </SocialMediaIcon>
         </SocialMediaIcons>

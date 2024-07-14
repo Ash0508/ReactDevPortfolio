@@ -1,5 +1,10 @@
 import chbsImage from '../images/chbs.jpeg';
 import nitpImage from '../images/nitp.jpg';
+import SRM from '../images/SRM_University_Amaravati_Logo.jpg';
+import tumor from '../images/tumor.jpg';
+import chat from '../images/chatt.png';
+import sudoko from '../images/Sudoko.webp';
+import loan from '../images/loan.png';
 import tsfImage from '../images/tsf.png';
 import ieeeImage from '../images/ieee.png';
 import navjeevanImage from '../images/navjeevan.png';
@@ -22,10 +27,10 @@ export const Bio = {
     "I am a motivated and versatile final-year Electronics and Communication Engineering student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
   github: "https://github.com/Ash0508",
   resume:
-    "https://drive.google.com/file/d/1r8CSoh-xfHlHQ1iHnw_rDWQst9y4HSrD/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/harsh-singh-b1abba249/",
-  insta: "https://www.instagram.com/h_arsh__sengar?utm_source=qr&igsh=d28wMHRpbzZodHFk/",
-  xicon: "https://x.com/harsh_sing47218?t=KEmwf5xuce4vcvbLfieGRw&s=08",
+    "https://drive.google.com/file/d/1PfJggC3S2ph845_GSthIlj9trW0ADvhg/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/ankush-singh-4459a824a/",
+  insta: "https://www.instagram.com/_axkush_singh/",
+  xicon: "https://x.com/AnkushS00373636",
 };
 
 export const skills = [
@@ -88,38 +93,38 @@ export const experiences = [
   {
     id: 0,
     img: tsfImage,
-    role: "Web Developer Intern",
-    company: "The Sparks Foundation",
+    role: "Amazon ML Summer School 2023",
+    company: "Amazon",
     date: "June'24",
-    desc: "Developed an application for asking donation, to help uderprivileged children.",
+    desc: "Learned and Implemented Supervised,Reinforcement Learning and Neural Networks Trained and tested the model. Achieved high accuracy.",
     skills: [
-      "React JS",
-      "Razorpay dashboard",
-      "CSS",
+      "Machine Learning",
+      " Pandas, NumPy",
+      "Matplotlib",
     ],
   },
   {
     id: 1,
     img: ieeeImage,
-    role: "Web Team",
-    company: "IEEE SB NITP",
-    date: "Jul'23-Oct'23",
-    desc: "Managed the official website of IEEE NITP SB for nearly 3 months, where i created the Ecom'23-24 page, all necessary posts and integrated the old website of IEEE NITP SB with the new one.",
+    role: "DATA SCIENCE INTERN",
+    company: "Code_Clause",
+    date: "Nov 2023 - Dec 2023",
+    desc: "The Image Caption Generator is a powerful tool that combines computer vision and natural language processing to generate descriptive captions for images. This project leverages state-of-the-art deep learning techniques to automatically generate human-like captions that accurately depict the content of input images.",
     skills: [
-      "React",
-      "Firebase",
+      "convolutional neural networks (CNNs)",
+      " recurrent neural networks (RNNs)",
     ],
   },
   {
     id: 2,
     img: ieeeImage,
-    role: "Technical Team Member",
-    company: "IEEE SB NITP",
-    date: "Sept'22-June'23",
-    desc: "Provided technical contents to be posted on social media , arranged and led technical quizzes and hackathons.",
+    role: "Data Science Intern",
+    company: "CodSoft",
+    date: "OCt 2023 - Nov 2023",
+    desc: "Utilized machine learning algorithms on the famous Titanic Disaster Dataset to predict passenger survival. This project, aimed at beginners, serves as an introductory guide to starting with Kaggle competitions. The repository explains every topic with a naive approach, making it easy for newcomers to grasp fundamental machine learning concepts.",
     skills: [
-      "Leadership",
-      "Communication",
+      "KNN",
+      "Ramdom forest Algorithm",
     ],
   },
 ];
@@ -127,121 +132,123 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: nitpImage,
-    school: "National Institute of Technology , Patna",
+    img: SRM,
+    school: "SRM University , AP",
     date: "Dec'21-May'25",
-    grade: "8.91 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Electronics & Communication Engineering from National Institute of Technology, Patna. I have completed 6 semesters and have a CGPA of 8.91. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the IEEE SB AT NITP, where I am learning and working on exciting projects with a team of talented individuals.",
-    degree: "Bachelor of Technology - Electronics and Communication Engineering",
+    grade: "8.61 CGPA",
+    desc: 
+    "I am a motivated and versatile final-year Computer Science and Engineering student at SRM University, Andhra Pradesh, with a CGPA of 8.60. I have a strong foundation in Data Structures and Algorithms (DSA), Database Management System (DBMS), Operating Systems, and Object-Oriented Programming Concepts (OOPS). I have gained experience through various internships and projects, including Amazon ML Summer School 2023, where I learned and implemented advanced concepts in Machine Learning. I have worked on projects such as tumor disease detection, a mental health care chatbot, and an AI-based Sudoku solver. I am proficient in languages like Java, Python, C++, C, JavaScript, and SQL, and I have experience with technologies and frameworks such as HTML5, Spring Boot, CSS3, MongoDB, Express, React, NodeJS, and Bootstrap. I am always eager to take on new challenges and deliver high-quality results with a positive attitude and growth mindset.",
+    degree: "Bachelor of Technology - Computer Science and Engineering",
   },
   {
     id: 1,
-    img: chbsImage,
-    school: "Central Hindu Boys' School, Varanasi",
-    grade: "94.2%",
-    desc: "I completed my 12th standard education at Central Hindu Boys' School, Varanasi, where I studied Mathematics with Science.",
-    degree: "CBSE(XII), Mathematics",
+    img: navjeevanImage,
+    school: "St Thomas College, Lucknow",
+    grade: "95%",
+    desc: "I completed my 12th standard education at St Thomas College, Lucknow, where I studied Mathematics with Science.",
+    degree: "ISC(XII), Physics,Chemistry and Mathematics",
   },
   {
     id: 2,
     img: navjeevanImage,
-    school: "Navjeevan English School , Ballia",
-    grade: "95.0%",
-    desc: "I completed my 10th education at Navjeevan English School, Ballia where I studied Science with Mathematics.",
-    degree: "CBSE(X)",
+    school: "St Thomas College, Lucknow",
+    grade: "86.0%",
+    desc: "I completed my 10th education at St Thomas College, Lucknow where I studied Science and Computers with Mathematics.",
+    degree: "ICSE(X)",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Helping Hands",
+    title: " Chatbot for Mental Health Care",
     date: "Jun'24",
     description:
-      "Helping Hands is a web application which develpoed during my internship at The Sparks Foundation.This website aims to collect a donation of 100 RS through Razorpay dashboard.Here users can track their payments done to the organisation in real time as they recieve a payment receipt in realtime through mail.",
-    image: helpingHandsImage,
+      "Developed a responsive chatbot using the MERN stack (MongoDB, Express, React, Node.js) to provide mental health support and resources Integrated Natural Language Processing (NLP) techniques to accurately interpret and respond to user queries,improving user interaction and support effectiveness.Implemented machine learning models trained with Stochastic Gradient Descent (SGD) to enhance anomaly detection and bolster network security.",
+    image: chat,
     member: [
       {
-        name: "Harsh Singh",
+        name: "Ankush Singh",
         img: HeroImage,
        
         },
       ],
     tags: [
-      "React JS",
-      "Razorpay dashboard",
+      "MERN",
+      "ML and NLP",
     ],
     category: "web app",
-    github: "https://github.com/Harsh-ngh/Payment-app",
-    webapp: "https://payment-app-phi.vercel.app/",
+    github: "https://github.com/Ash0508/Mental_Health_ChatBot",
+    // webapp: "https://payment-app-phi.vercel.app/",
   },
   {
     id: 1,
-    title: "Jobire",
-    date: "Jun'24",
+    title: "Tumor Disease Detection using Feature Selection",
+    date: "Jun'23",
     description:
-      "Developed a comprehensive full-stack website designed to enhance the job search experience. Users can search for job opportunities that align with their skills using advanced filters to find the most relevant matches. The platform allows users to request referrals for job positions, increasing their chances of getting noticed by potential employers. Users can also post job openings, making it easier to attract and hire talented individuals. Additionally, the website enables users to connect with other professionals, fostering networking and collaboration. Secure access is ensured through authentication for registered users.",
-    image: jobireImage,
+      "Researched tumor disease detection using Mutual Information and Chi-Square Test for feature selection  Implemented various training algorithms: Decision Trees, Random Forests, Logistic Regression, Naive Bayes,SVM, and KNN Analyzed feature selection impact on tumor detection accuracy",
+    image: tumor,
     member: [
       {
-        name: "Harsh Singh",
+        name: "Ankush Singh",
         img: HeroImage,
        
         },
       ],
-    tags: ["React Js", "Firebase"],
+    tags: ["Mutual Information and Chi-Square Test"],
     category: "web app",
-    github: "https://github.com/Harsh-ngh/Jobbire",
+    github: "https://github.com/Ash0508/Tumor-Disease-Detection-using-Feature-Selection-",
     webapp: "",
   },
   {
     id: 3,
-    title: "Personal Portfolio",
+    title: "AI-based Sudoku Solver using CSP Technique ",
     date: "Jul'24",
     description:
       "Developed a personal portfolio website to showcase my professional journey and skills. About section provides a detailed overview of my background, interests, and goals. In the Experience section, I highlight my professional roles and accomplishments, showcasing the growth and impact I've made in various positions.Projects section features a selection of my key projects, demonstrating my expertise and the range of my work. Lastly, the Contact section allows visitors to easily reach out to me for networking, collaboration, or inquiries. The portfolio is designed to be informative and engaging, reflecting my personal and professional brand.",
-    image: portfolioImage,
+    image: sudoko,
   
       member: [
       {
-        name: "Harsh Singh",
+        name: "Ankush Singh",
         img: HeroImage,
        
         },
       ],
     tags: [
-      "React Js",
+      "CSP Technique, A* and Heuristics Search",
     ],
     category: "web app",
-    github: "https://github.com/Harsh-ngh/Harsh-Portfolio",
-    webapp: "https://harsh-portfolio-two.vercel.app/",
+    github: "https://github.com/Ash0508/AI-based_Sudoku_Solver_using_CSP_Technique",
+    webapp: "",
   },
    {
     id: 4,
-    title: "Fall sense detection",
+    title: "Amazon_ML_Summer_School_Loan-Prediction",
     date: "Mar'24",
     description:
-      "Developed a fall detection system in a team of three members, using Arduino Uno and MPU 6050 to monitor elderly individuals. The system detects falls using sensors and sends notifications instantly, enhancing safety and providing timely assistance.",
-    image: iot,
+      "Loan Prediction",
+    image: loan,
     tags: [
       "MPU 6050",
       "Arduino UNO",
     ],
      category: "IOT",
+     github:"https://github.com/Ash0508/Amazon_ML_Summer_School_Loan-Prediction/tree/main",
      member: [
       {
-        name: "Harsh Singh",
-        img: HeroImage,
+        name: "Ankush Singh",
+        img: loan,
        
       },
-       {
-         name: "Roshan Birla",
-         img: birla,
-       },
-       {
-         name: "Vishesh Verma",
-         img: chhotu,
-       }
+      //  {
+      //    name: "Roshan Birla",
+      //    img: birla,
+      //  },
+      //  {
+      //    name: "Vishesh Verma",
+      //    img: chhotu,
+      //  }
     ],
     
   },
@@ -254,3 +261,161 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+
+
+// import chbsImage from '../images/chbs.jpeg';
+// import nitpImage from '../images/nitp.jpg';
+// import tsfImage from '../images/tsf.png';
+// import ieeeImage from '../images/ieee.png';
+// import navjeevanImage from '../images/navjeevan.png';
+// import jobireImage from '../images/jobire.png';
+// import portfolioImage from '../images/portfolio.png';
+// import helpingHandsImage from '../images/helpinghands.png';
+// import chhotu from '../images/chhotu.png'
+// import HeroImage from '../images/singh.jpeg'
+// import birla from '../images/birla.png'
+// import iot from '../images/iot.jpg'
+
+// export const Bio = {
+//   name: "Ankush Singh",
+//   contact: "+91-8756684936",
+//   location: "Lucknow, UP",
+//   email: "singhankush0508@gmail.com",
+//   roles: [
+//     "Web developer",
+//     "Programmer",
+//   ],
+//   description:
+//     "I am a motivated and versatile final-year Computer Science and Engineering student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
+//   github: "https://github.com/Ash0508",
+//   linkedin: "https://www.linkedin.com/in/harsh-singh-b1abba249/",
+// };
+
+// export const education = [
+//   {
+//     id: 0,
+//     img: nitpImage,
+//     school: "SRM University, Andhra Pradesh",
+//     date: "2021 – 2025",
+//     grade: "8.60 CGPA",
+//     location: "Amarawati, Andhra Pradesh",
+//     degree: "B.Tech - Computer Science and Engineering",
+//     coursework: [
+//       "Data Structures and Algorithms (DSA)",
+//       "Database Management System (DBMS)",
+//       "Operating Systems",
+//       "Object-Oriented Programming Concepts (OOPS)"
+//     ],
+//   },
+// ];
+
+// export const experiences = [
+//   {
+//     id: 0,
+//     img: tsfImage,
+//     role: "Advanced Concept of ML",
+//     company: "Amazon ML Summer School 2023",
+//     date: "Sept 2023 - Oct 2023",
+//     desc: "Learned and Implemented Supervised, Reinforcement Learning, and Neural Networks. Worked on a loan prediction project using a Kaggle dataset. Trained and tested the model, achieving high accuracy. Used Python for programming, employing Pandas, NumPy, and Matplotlib for data analysis and visualization, and Pandas for data preprocessing. Utilized Jupyter Notebook as the primary environment for project development, ensuring seamless workflow for data exploration, analysis, and model prototyping.",
+//     skills: [
+//       "AI-ML",
+//       "Software Engineering"
+//     ],
+//   },
+// ];
+
+// export const projects = [
+//   {
+//     id: 0,
+//     title: "Tumor Disease Detection using Feature Selection",
+//     date: "2023",
+//     description: "Researched tumor disease detection using Mutual Information and Chi-Square Test for feature selection. Implemented various training algorithms: Decision Trees, Random Forests, Logistic Regression, Naive Bayes, SVM, and KNN. Analyzed feature selection impact on tumor detection accuracy.",
+//   },
+//   {
+//     id: 1,
+//     title: "Chatbot for Mental Health Care",
+//     date: "2023",
+//     description: "Developed a responsive chatbot using the MERN stack (MongoDB, Express, React, Node.js) to provide mental health support and resources. Integrated Natural Language Processing (NLP) techniques to accurately interpret and respond to user queries, improving user interaction and support effectiveness. Implemented machine learning models trained with Stochastic Gradient Descent (SGD) to enhance anomaly detection and bolster network security.",
+//   },
+//   {
+//     id: 2,
+//     title: "AI-based Sudoku Solver using CSP Technique",
+//     date: "2023",
+//     description: "Developed an artificial intelligence-based Sudoku Solver utilizing Constraint Satisfaction Problem (CSP) techniques for efficient solving. Employed A* and Heuristics Search techniques.",
+//   },
+// ];
+
+// export const skills = [
+//   {
+//     title: "Languages",
+//     skills: [
+//       "JAVA",
+//       "Python",
+//       "C++",
+//       "C",
+//       "JavaScript",
+//       "SQL",
+//     ],
+//   },
+//   {
+//     title: "Technologies/Frameworks",
+//     skills: [
+//       "HTML5",
+//       "Spring Boot",
+//       "CSS3",
+//       "MongoDB",
+//       "Express",
+//       "React",
+//       "NodeJS",
+//       "Bootstrap",
+//     ],
+//   },
+//   {
+//     title: "Developer Tools",
+//     skills: [
+//       "VS Code",
+//       "Jupyter Notebook",
+//       "Git",
+//       "Github",
+//       "Postman",
+//     ],
+//   },
+// ];
+
+// export const certifications = [
+//   {
+//     title: "Data Scientist Virtual Internship",
+//     provider: "BCGX",
+//   },
+//   {
+//     title: "Software Engineering Virtual Internship",
+//     provider: "Walmart Global-Tech",
+//   },
+//   {
+//     title: "Career Essentials in Software Development",
+//     provider: "Microsoft and LinkedIn",
+//   },
+//   {
+//     title: "Cybersecurity Foundation",
+//     provider: "GOOGLE - Coursera",
+//   },
+// ];
+
+// export const extracurriculars = [
+//   {
+//     title: "Venture Capital - The Basics",
+//     description: "Investment selection processes, Startup Valuation, and Startup Growth",
+//   },
+//   {
+//     title: "J.P.Morgan Chase - Commercial Banking company and industry overview program",
+//     description: "Company and industry overview program",
+//   },
+// ];
+
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];
