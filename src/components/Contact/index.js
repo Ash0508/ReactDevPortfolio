@@ -128,6 +128,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer; 
 `;
 
 const Contact = () => {
@@ -148,7 +149,6 @@ const Contact = () => {
   };
 
   const sendEmail = async (e) => {
-    console.log(env.REACT_APP_EMAILJS_SERVICE_ID)
     e.preventDefault();
   
     if (!formData.from_name || !formData.reply_to || !formData.message || !formData.subject) {
