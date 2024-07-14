@@ -1,6 +1,8 @@
 import chbsImage from '../images/chbs.jpeg';
 import nitpImage from '../images/nitp.jpg';
 import SRM from '../images/SRM_University_Amaravati_Logo.jpg';
+import amazon from '../images/Amazon.jpg'
+import code from '../images/code.png';
 import tumor from '../images/tumor.jpg';
 import chat from '../images/chatt.png';
 import sudoko from '../images/Sudoko.webp';
@@ -92,7 +94,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: tsfImage,
+    img: amazon,
     role: "Amazon ML Summer School 2023",
     company: "Amazon",
     date: "June'24",
@@ -105,7 +107,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: ieeeImage,
+    img: code,
     role: "DATA SCIENCE INTERN",
     company: "Code_Clause",
     date: "Nov 2023 - Dec 2023",
@@ -117,7 +119,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: ieeeImage,
+    img: code,
     role: "Data Science Intern",
     company: "CodSoft",
     date: "OCt 2023 - Nov 2023",
@@ -230,8 +232,8 @@ export const projects = [
       "Loan Prediction",
     image: loan,
     tags: [
-      "MPU 6050",
-      "Arduino UNO",
+      "Supervised and",
+      "Unsupervised Learning",
     ],
      category: "IOT",
      github:"https://github.com/Ash0508/Amazon_ML_Summer_School_Loan-Prediction/tree/main",
