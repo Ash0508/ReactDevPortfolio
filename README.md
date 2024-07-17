@@ -6,7 +6,6 @@ This portfolio website is built using the MERN stack (MongoDB, Express.js, React
 
 Live Demo: [Portfolio](https://ankush-singh-portfolio.web.app/)
 
-GitHub Repository: [Portfolio-Website](https://github.com/Ash0508/ReactDevPortfolio)
 
 # ✨ Features
 
@@ -79,7 +78,10 @@ This will run the app in development mode. Open [http://localhost:3000](http://l
 
 We welcome contributions to enhance this project. Feel free to fork the repository and create a pull request with your changes. Here are some ways you can contribute:
 
+
 - **Bug Reports & Feature Requests** : If you encounter any issues or have feature suggestions, please create a GitHub issue.
 - **Pull Requests** : If you'd like to contribute code, please fork the repository and submit a pull request.
+
+GitHub Repository : [ReactDevPortfolio](https://github.com/Ash0508/ReactDevPortfolio)
 
 Show some ❤️ by giving a star ⭐ to this repository!
