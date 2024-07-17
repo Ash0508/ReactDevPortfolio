@@ -4,7 +4,7 @@
 
 This portfolio website is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and showcases a multi-page layout. It is designed to be fully responsive, ensuring optimal viewing across various devices.
 
-Live Demo: [Portfolio](https://ankush-singh-portfolio.web.app/)
+Live Demo : [Portfolio](https://ankush-singh-portfolio.web.app/)
 
 
 # ✨ Features
@@ -81,7 +81,5 @@ We welcome contributions to enhance this project. Feel free to fork the reposito
 
 - **Bug Reports & Feature Requests** : If you encounter any issues or have feature suggestions, please create a GitHub issue.
 - **Pull Requests** : If you'd like to contribute code, please fork the repository and submit a pull request.
-
-GitHub Repository : [ReactDevPortfolio](https://github.com/Ash0508/ReactDevPortfolio)
 
 Show some ❤️ by giving a star ⭐ to this repository!
