@@ -34,39 +34,17 @@ To get started with this project, follow these instructions. Ensure you have Nod
 
 2. **Navigate to the Project Directory**
     ```sh
-    cd portfolio-website
+    cd ReactDevPortfolio
     ```
 
-3. **Install Server Dependencies**
-    ```sh
-    cd backend
-    npm install
-    ```
-
-4. **Install Client Dependencies**
-    ```sh
-    cd ../frontend
-    npm install
-    ```
-
-5. **Set Up Environment Variables**
-    - Create a `.env` file in the `backend` directory and add the following variables:
-        ```plaintext
-        MONGO_URI=<your_mongo_db_connection_string>
-        PORT=5000
-        ```
-
-6. **Start the Development Server**
-    - Start the backend server:
+3. **Start the Development Server:**
+    - Start the server:
         ```sh
-        cd backend
+        npm install
         npm start
         ```
-    - Start the frontend development server:
-        ```sh
-        cd ../frontend
-        npm start
-        ```
+
+
 
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
