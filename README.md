@@ -1,19 +1,19 @@
-# MERN Portfolio Website
+# ✨ReactDevPortfolio✨
 
 # 📋 Project Overview
 
 This portfolio website is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and showcases a multi-page layout. It is designed to be fully responsive, ensuring optimal viewing across various devices.
 
-Live Demo: [Portfolio Website](#) <!-- Replace # with the actual link to your live demo -->
+Live Demo: [Portfolio Website](#)
 
-GitHub Repository: [Portfolio-Website-MERN](https://github.com/Ash0508/portfolio-website)
+GitHub Repository: [Portfolio-Website](https://github.com/Ash0508/ReactDevPortfolio)
 
 # ✨ Features
 
 - **Styled with React and Custom CSS**: Easy to customize colors and styles using React and CSS.
 - **Fully Responsive**: Designed to be responsive and user-friendly on all devices.
 
-# 📦 Technologies Used
+# 📦 Technologies
 
 - **React**: A JavaScript library for building user interfaces.
 - **Express.js**: A web application framework for Node.js.
