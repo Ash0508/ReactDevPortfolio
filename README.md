@@ -16,9 +16,9 @@ GitHub Repository: [Portfolio-Website](https://github.com/Ash0508/ReactDevPortfo
 # 📦 Technologies
 
 - **React**: A JavaScript library for building user interfaces.
-- **Express.js**: A web application framework for Node.js.
+- **Express**: A web application framework for Node.js.
 - **MongoDB**: A NoSQL database for storing data.
-- **Node.js**: A JavaScript runtime for server-side development.
+- **Node**: A JavaScript runtime for server-side development.
 - **Mongoose**: A MongoDB object modeling tool for Node.js.
 - **Axios**: A promise-based HTTP client for the browser and Node.js.
 
@@ -28,29 +28,29 @@ To get started with this project, follow these instructions. Ensure you have Nod
 
 # 🛠 Installation and Setup Instructions
 
-1. **Clone the Repository:**
+1. **Clone the Repository**
     ```sh
     git clone https://github.com/Ash0508/portfolio-website.git
     ```
 
-2. **Navigate to the Project Directory:**
+2. **Navigate to the Project Directory**
     ```sh
     cd portfolio-website
     ```
 
-3. **Install Server Dependencies:**
+3. **Install Server Dependencies**
     ```sh
     cd backend
     npm install
     ```
 
-4. **Install Client Dependencies:**
+4. **Install Client Dependencies**
     ```sh
     cd ../frontend
     npm install
     ```
 
-5. **Set Up Environment Variables:**
+5. **Set Up Environment Variables**
     - Create a `.env` file in the `backend` directory and add the following variables:
         ```plaintext
         MONGO_URI=<your_mongo_db_connection_string>
@@ -61,7 +61,7 @@ To get started with this project, follow these instructions. Ensure you have Nod
         REACT_APP_API_URL=http://localhost:5000/api
         ```
 
-6. **Start the Development Server:**
+6. **Start the Development Server**
     - Start the backend server:
         ```sh
         cd backend
@@ -79,7 +79,7 @@ This will run the app in development mode. Open [http://localhost:3000](http://l
 
 We welcome contributions to enhance this project. Feel free to fork the repository and create a pull request with your changes. Here are some ways you can contribute:
 
-- **Bug Reports & Feature Requests**: If you encounter any issues or have feature suggestions, please create a GitHub issue.
-- **Pull Requests**: If you'd like to contribute code, please fork the repository and submit a pull request.
+- **Bug Reports & Feature Requests** : If you encounter any issues or have feature suggestions, please create a GitHub issue.
+- **Pull Requests** : If you'd like to contribute code, please fork the repository and submit a pull request.
 
 Show some ❤️ by giving a star ⭐ to this repository!
