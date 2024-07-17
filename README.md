@@ -29,7 +29,7 @@ To get started with this project, follow these instructions. Ensure you have Nod
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/Ash0508/portfolio-website.git
+    git clone https://github.com/Ash0508/ReactDevPortfolio.git
     ```
 
 2. **Navigate to the Project Directory**
@@ -54,10 +54,6 @@ To get started with this project, follow these instructions. Ensure you have Nod
         ```plaintext
         MONGO_URI=<your_mongo_db_connection_string>
         PORT=5000
-        ```
-    - Create a `.env.local` file in the `frontend` directory and add the following variable:
-        ```plaintext
-        REACT_APP_API_URL=http://localhost:5000/api
         ```
 
 6. **Start the Development Server**
