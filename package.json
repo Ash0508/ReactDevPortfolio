@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "ankush-singh-portfolio",
-=======
-  "name": "ankush_singh_portfolio",
->>>>>>> fa1ca7ff6727512252df170ce2513f3d3561dcb7
   "version": "0.1.0",
   "homepage": "https://ankush-singh-portfolio.web.app/",
   "private": true,
