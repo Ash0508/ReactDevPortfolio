@@ -26,7 +26,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile final-year Electronics and Communication Engineering student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
+    "I am a motivated and versatile final-year Computer Science and Engineering student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
   github: "https://github.com/Ash0508",
   resume:
     "https://drive.google.com/file/d/1PfJggC3S2ph845_GSthIlj9trW0ADvhg/view?usp=sharing",
