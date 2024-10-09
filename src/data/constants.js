@@ -1,5 +1,3 @@
-import chbsImage from '../images/chbs.jpeg';
-import nitpImage from '../images/nitp.jpg';
 import SRM from '../images/SRM_University_Amaravati_Logo.jpg';
 import amazon from '../images/Amazon.jpg'
 import code from '../images/code.png';
@@ -7,17 +5,9 @@ import tumor from '../images/tumor.jpg';
 import chat from '../images/chatt.png';
 import sudoko from '../images/Sudoko.webp';
 import loan from '../images/loan.png';
-import tsfImage from '../images/tsf.png';
-import ieeeImage from '../images/ieee.png';
 import navjeevanImage from '../images/navjeevan.png';
-import jobireImage from '../images/jobire.png';
-import portfolioImage from '../images/portfolio.png';
-import helpingHandsImage from '../images/helpinghands.png';
-import chhotu from '../images/chhotu.png'
+import craving from '../images/craving.png';
 import HeroImage from '../images/singh.jpeg'
-import birla from '../images/birla.png'
-import iot from '../images/iot.jpg'
-
 
 export const Bio = {
   name: "Ankush Singh",
@@ -163,7 +153,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: " Chatbot for Mental Health Care",
+    title: "Zenbot - Chatbot for Mental Health Care ",
     date: "Jun'24",
     description:
       "Developed a responsive chatbot using the MERN stack (MongoDB, Express, React, Node.js) to provide mental health support and resources Integrated Natural Language Processing (NLP) techniques to accurately interpret and respond to user queries,improving user interaction and support effectiveness.Implemented machine learning models trained with Stochastic Gradient Descent (SGD) to enhance anomaly detection and bolster network security.",
@@ -180,11 +170,33 @@ export const projects = [
       "ML and NLP",
     ],
     category: "web app",
-    github: "https://github.com/Ash0508/Mental_Health_ChatBot",
+    github: "https://github.com/Ash0508/ZenBot",
     // webapp: "https://payment-app-phi.vercel.app/",
   },
   {
     id: 1,
+    title: "CraverCrust - Pizza Ordering App",
+    date: "Jul'24",
+    description:
+      "CRAVECRUST: A luxurious, user-friendly pizza ordering app built with the MERN stack, offering seamless browsing, cart management, and user authentication. Perfect for pizza lovers!",
+    image: craving,
+  
+      member: [
+      {
+        name: "Ankush Singh",
+        img: HeroImage,
+       
+        },
+      ],
+    tags: [
+     " MERN Stack (Full Stack)"
+    ],
+    category: "web app",
+    github: "https://github.com/Ash0508/CRAVECRUST",
+    webapp: "",
+  },
+  {
+    id: 2,
     title: "Tumor Disease Detection using Feature Selection",
     date: "Jun'23",
     description:
@@ -243,181 +255,9 @@ export const projects = [
         img: loan,
        
       },
-      //  {
-      //    name: "Roshan Birla",
-      //    img: birla,
-      //  },
-      //  {
-      //    name: "Vishesh Verma",
-      //    img: chhotu,
-      //  }
     ],
     
   },
+  ,
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
-
-
-// import chbsImage from '../images/chbs.jpeg';
-// import nitpImage from '../images/nitp.jpg';
-// import tsfImage from '../images/tsf.png';
-// import ieeeImage from '../images/ieee.png';
-// import navjeevanImage from '../images/navjeevan.png';
-// import jobireImage from '../images/jobire.png';
-// import portfolioImage from '../images/portfolio.png';
-// import helpingHandsImage from '../images/helpinghands.png';
-// import chhotu from '../images/chhotu.png'
-// import HeroImage from '../images/singh.jpeg'
-// import birla from '../images/birla.png'
-// import iot from '../images/iot.jpg'
-
-// export const Bio = {
-//   name: "Ankush Singh",
-//   contact: "+91-8756684936",
-//   location: "Lucknow, UP",
-//   email: "singhankush0508@gmail.com",
-//   roles: [
-//     "Web developer",
-//     "Programmer",
-//   ],
-//   description:
-//     "I am a motivated and versatile final-year Computer Science and Engineering student with a passion for data structures and full-stack web development. Always eager to take on new challenges, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make meaningful contributions and achieve great things in the tech industry.",
-//   github: "https://github.com/Ash0508",
-//   linkedin: "https://www.linkedin.com/in/harsh-singh-b1abba249/",
-// };
-
-// export const education = [
-//   {
-//     id: 0,
-//     img: nitpImage,
-//     school: "SRM University, Andhra Pradesh",
-//     date: "2021 – 2025",
-//     grade: "8.60 CGPA",
-//     location: "Amarawati, Andhra Pradesh",
-//     degree: "B.Tech - Computer Science and Engineering",
-//     coursework: [
-//       "Data Structures and Algorithms (DSA)",
-//       "Database Management System (DBMS)",
-//       "Operating Systems",
-//       "Object-Oriented Programming Concepts (OOPS)"
-//     ],
-//   },
-// ];
-
-// export const experiences = [
-//   {
-//     id: 0,
-//     img: tsfImage,
-//     role: "Advanced Concept of ML",
-//     company: "Amazon ML Summer School 2023",
-//     date: "Sept 2023 - Oct 2023",
-//     desc: "Learned and Implemented Supervised, Reinforcement Learning, and Neural Networks. Worked on a loan prediction project using a Kaggle dataset. Trained and tested the model, achieving high accuracy. Used Python for programming, employing Pandas, NumPy, and Matplotlib for data analysis and visualization, and Pandas for data preprocessing. Utilized Jupyter Notebook as the primary environment for project development, ensuring seamless workflow for data exploration, analysis, and model prototyping.",
-//     skills: [
-//       "AI-ML",
-//       "Software Engineering"
-//     ],
-//   },
-// ];
-
-// export const projects = [
-//   {
-//     id: 0,
-//     title: "Tumor Disease Detection using Feature Selection",
-//     date: "2023",
-//     description: "Researched tumor disease detection using Mutual Information and Chi-Square Test for feature selection. Implemented various training algorithms: Decision Trees, Random Forests, Logistic Regression, Naive Bayes, SVM, and KNN. Analyzed feature selection impact on tumor detection accuracy.",
-//   },
-//   {
-//     id: 1,
-//     title: "Chatbot for Mental Health Care",
-//     date: "2023",
-//     description: "Developed a responsive chatbot using the MERN stack (MongoDB, Express, React, Node.js) to provide mental health support and resources. Integrated Natural Language Processing (NLP) techniques to accurately interpret and respond to user queries, improving user interaction and support effectiveness. Implemented machine learning models trained with Stochastic Gradient Descent (SGD) to enhance anomaly detection and bolster network security.",
-//   },
-//   {
-//     id: 2,
-//     title: "AI-based Sudoku Solver using CSP Technique",
-//     date: "2023",
-//     description: "Developed an artificial intelligence-based Sudoku Solver utilizing Constraint Satisfaction Problem (CSP) techniques for efficient solving. Employed A* and Heuristics Search techniques.",
-//   },
-// ];
-
-// export const skills = [
-//   {
-//     title: "Languages",
-//     skills: [
-//       "JAVA",
-//       "Python",
-//       "C++",
-//       "C",
-//       "JavaScript",
-//       "SQL",
-//     ],
-//   },
-//   {
-//     title: "Technologies/Frameworks",
-//     skills: [
-//       "HTML5",
-//       "Spring Boot",
-//       "CSS3",
-//       "MongoDB",
-//       "Express",
-//       "React",
-//       "NodeJS",
-//       "Bootstrap",
-//     ],
-//   },
-//   {
-//     title: "Developer Tools",
-//     skills: [
-//       "VS Code",
-//       "Jupyter Notebook",
-//       "Git",
-//       "Github",
-//       "Postman",
-//     ],
-//   },
-// ];
-
-// export const certifications = [
-//   {
-//     title: "Data Scientist Virtual Internship",
-//     provider: "BCGX",
-//   },
-//   {
-//     title: "Software Engineering Virtual Internship",
-//     provider: "Walmart Global-Tech",
-//   },
-//   {
-//     title: "Career Essentials in Software Development",
-//     provider: "Microsoft and LinkedIn",
-//   },
-//   {
-//     title: "Cybersecurity Foundation",
-//     provider: "GOOGLE - Coursera",
-//   },
-// ];
-
-// export const extracurriculars = [
-//   {
-//     title: "Venture Capital - The Basics",
-//     description: "Investment selection processes, Startup Valuation, and Startup Growth",
-//   },
-//   {
-//     title: "J.P.Morgan Chase - Commercial Banking company and industry overview program",
-//     description: "Company and industry overview program",
-//   },
-// ];
-
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
